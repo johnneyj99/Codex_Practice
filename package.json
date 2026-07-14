@@ -1,0 +1,10 @@
+{
+  "name": "code-request-triage-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "코드 변경 요청을 입력하면 우선순위/리뷰 필요 여부/담당 역할/다음 액션을 규칙 기반으로 보여주는 1페이지 정적 웹앱 MVP.",
+  "main": "src/rules.js",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}

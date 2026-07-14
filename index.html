@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>코드 변경 요청 분류기 (MVP)</title>
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<body>
+  <main id="app-root" data-testid="app-root">
+    <h1>코드 변경 요청 분류기</h1>
+
+    <label for="input-main">코드 변경 요청 내용</label>
+    <textarea
+      id="input-main"
+      data-testid="input-main"
+      placeholder="예: 로그인 API 500 에러 수정"
+    ></textarea>
+
+    <button id="submit-button" data-testid="submit-button" type="button">분석</button>
+
+    <p id="status-message" data-testid="status-message" role="status"></p>
+
+    <ul id="result-list" data-testid="result-list"></ul>
+  </main>
+
+  <script src="src/rules.js"></script>
+  <script src="src/app.js"></script>
+</body>
+</html>

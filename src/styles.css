@@ -1,0 +1,100 @@
+:root {
+  color-scheme: light;
+  font-family: -apple-system, "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+  background: #f5f6f8;
+  color: #1f2430;
+}
+
+#app-root {
+  max-width: 640px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #e0e2e8;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+h1 {
+  font-size: 1.25rem;
+  margin: 0 0 16px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+textarea#input-main {
+  width: 100%;
+  min-height: 96px;
+  box-sizing: border-box;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #c7cad1;
+  border-radius: 6px;
+  resize: vertical;
+}
+
+button#submit-button {
+  margin-top: 12px;
+  padding: 8px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #2f6feb;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button#submit-button:hover {
+  background: #2559c4;
+}
+
+#status-message {
+  min-height: 1.25em;
+  margin: 16px 0 8px;
+  color: #2f6feb;
+}
+
+#status-message.status-error {
+  color: #c0392b;
+}
+
+#result-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.result-item {
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  border-left: 4px solid #c7cad1;
+  background: #f9fafb;
+}
+
+.result-item.priority-p0 {
+  border-left-color: #c0392b;
+  background: #fdecea;
+}
+
+.result-item.priority-p1 {
+  border-left-color: #d9822b;
+  background: #fdf3e7;
+}
+
+.result-item.priority-p2 {
+  border-left-color: #2f9e44;
+  background: #edf9ee;
+}
+
+.result-label {
+  font-weight: 600;
+}
